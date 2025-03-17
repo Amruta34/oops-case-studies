@@ -54,8 +54,8 @@ Workflow
 
 Example Scenarios:
 - A customer with a Savings Account deposits ₹500 and earns interest over time.
-- A Current Account holder withdraws ₹1800, using the overdraft feature.
-- A Fixed Deposit Account holder checks their maturity amount after 24 months.
+- A Current Account holder withdraws ₹18000, using the overdraft feature.
+- A Fixed Deposit Account holder checks their maturity amount after certain months.
 
 Conclusion
 This case study shows how I used OOP concepts to design a practical and user-friendly banking system. By applying Abstraction, Encapsulation, Inheritance, and Polymorphism, I ensured the system is well-structured, secure, and easy to expand. In the future, I can improve the system by:
