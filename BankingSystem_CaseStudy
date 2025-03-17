@@ -13,7 +13,7 @@ This System is allow users to deposit and withdraw money while following standar
 
 Objective for This System:
              1]I Build a system that will be easy for use, simple, secure and user friendly .
-             2]I apply Oops concept like Abstract class, Encapsulation, Inheritance and polymorphism that helps to build         System easily 
+             2]I apply Oops concept like Abstract class, Encapsulation, Inheritance and polymorphism that helps to build System easily 
              3]Ensure calculations are accurate, and errors are handled efficiently.
 
 System design :
@@ -26,7 +26,7 @@ System design :
          Savings Account Class:
              This is a Saving_Account child Class Is inherits from Base class BankAccount. 
              Has an interest rate  feature that adds extra money to the balance over time.
-             It allows users to deposit and withdraw money with proper balance checks, ensuring that withdrawals do not exceed           the available balance.
+             It allows users to deposit and withdraw money with proper balance checks, ensuring that withdrawals do not exceed the available balance.
          
              Current Account Class:
              This is a Current_Account child Class Is inherits from Base class BankAccount.
