@@ -1,0 +1,75 @@
+Banking System Case Study:
+
+Introduction:
+    I created this banking System using python by using OOPs key Concept Like Abstract class, Encapsulation, Inheritance and Polymorphism .This System is use to manage all banking facilities  like different types of bank accounts, Transactions and All other banking Services in simple yet effective way.
+
+Problem Statement:
+    I wanted to develop a  Software for bank that will help to manage different account types such as:
+         Saving account that earns interest.
+         Current account that provides overdraft facilities.
+         Fixed deposit account where we can stored money for a certain time or period.
+
+This System is allow users to deposit and withdraw money while following standard banking rules.
+
+Objective for This System:
+             1]I Build a system that will be easy for use, simple, secure and user friendly .
+             2]I apply Oops concept like Abstract class, Encapsulation, Inheritance and polymorphism that helps to build         System easily 
+             3]Ensure calculations are accurate, and errors are handled efficiently.
+
+System design :
+     The System Includes Following key parts:
+         Abstract Class: BankAccount
+             This is the base class for all account types.
+             It stores important details like account number, account holder's name, and balance.
+             It requires each account type to have `deposit()` and `withdraw()` methods.
+          
+         Savings Account Class:
+             This is a Saving_Account child Class Is inherits from Base class BankAccount. 
+             Has an interest rate  feature that adds extra money to the balance over time.
+             It allows users to deposit and withdraw money with proper balance checks, ensuring that withdrawals do not exceed           the available balance.
+         
+             Current Account Class:
+             This is a Current_Account child Class Is inherits from Base class BankAccount.
+             Offers an overdraft limit that lets users withdraw money even if their balance is low up to a limit.
+             Handles deposits and withdrawals with proper balance rules.
+             
+         Fixed Deposit Account Class:
+             This is a FixedDepositeAccount child Class Is inherits from Base class BankAccount.
+             This Account Allows only one-time deposits with no withdrawals until maturity
+             This Class Has a method to calculate the maturity amount based on interest and tenure.
+
+        Bank Class:
+            This class is to Manages all customer accounts.
+            Also Provides options to create new accounts and view account details. 
+Workflow
+1.Account Creation:
+            The Users create accounts with an initial deposit.
+2.Transactions:
+            The Users deposit or withdraw money following account-specific rules.
+3.Interest Calculation:
+            Savings and Fixed Deposit accounts automatically earn interest.
+4.Account Management:
+           Here Users can view their account details and check balances at anytime.  
+5.Security and Audit: Each transaction is logged for transparency, security, and fraud prevention.
+
+Example Scenarios:
+- A customer with a Savings Account deposits ₹500 and earns interest over time.
+- A Current Account holder withdraws ₹1800, using the overdraft feature.
+- A Fixed Deposit Account holder checks their maturity amount after 24 months.
+
+Conclusion
+This case study shows how I used OOP concepts to design a practical and user-friendly banking system. By applying Abstraction, Encapsulation, Inheritance, and Polymorphism, I ensured the system is well-structured, secure, and easy to expand. In the future, I can improve the system by:
+- Adding transaction history for better tracking.
+- Including customer profiles for personalized services.
+- Enhancing error handling to avoid unexpected issues.
+-Implementing multi-factor authentication for improved security.
+This design keeps the system organized, simple, and useful for real-life banking needs.
+
+
+
+
+
+ 
+
+
+
